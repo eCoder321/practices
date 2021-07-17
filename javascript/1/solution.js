@@ -14,3 +14,5 @@ function solve(meal_cost, tip_percent, tax_percent) {
     const finalAmount = meal_cost + (meal_cost * additions)
     console.log(Math.round(finalAmount))
 }
+
+solve(50, 20, 0)
